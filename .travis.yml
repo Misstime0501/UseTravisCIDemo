@@ -1,7 +1,9 @@
 language: objective-c
 
-xcode_project: UseTravisCIDemo.xcodeproj
+script: xcodebuild -version
 
-xcode_scheme: UseTravisCIDemo
+# xcode_project: UseTravisCIDemo.xcodeproj
 
-xcode_sdk: iphonesimulator8.1
+# xcode_scheme: UseTravisCIDemo
+
+# xcode_sdk: iphonesimulator8.1
